@@ -70,11 +70,12 @@ body {
 .name {
     display: flex;
     align-items: center;
-    margin: 0.7rem 0 0 4rem;
+    margin: 0.4rem 0 0 10px;
 }
 
 .name h1 {
-    font-size: 1.1rem;
+    font-size: 16px;
+
 }
 .name img{
     margin-left: 4px;
@@ -85,7 +86,7 @@ body {
 .about {
     display: flex;
     justify-content: space-between;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .box {
@@ -98,9 +99,14 @@ body {
     font-weight: 550;
 }
 
+.about .box1{
+    display: flex;
+    justify-content: space-around;
+}
+
 .box span {
-    font-size: 0.938rem;
-    font-weight: 400;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
 .menu a{
@@ -176,7 +182,7 @@ body {
 .header-content .btn {
     display: flex;
     font-size: 0.5rem;
-    align-items: center;
+    align-items: flex-start;
     padding: 10px;
     border-radius: 8px;
     background: var(--gradient);
@@ -185,7 +191,8 @@ body {
 
 .header-content .btn i{
     color: hsla(0, 0%, 100%, 0.6);
-    margin-left: 2px;
+    margin-left: 1rem;
+    align-items: flex-start;
 }
 
 .btn-text {
@@ -264,6 +271,7 @@ body {
 
 .feed h1{
     font-size: 1.7rem;
+    margin-right: 45rem;
 }
 
 .feed-text {
